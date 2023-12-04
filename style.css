@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.block-container {
+    background-color: #f8e6c5; /* Amarillo pálido */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.inline-container {
+    background-color: #e7c2f0; /* Violeta pálido */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.block-element {
+    position: relative;
+    width: 200px;
+    height: 150px; /* Ajustar la altura según sea necesario */
+    border: 2px solid #8d6a36; /* Marrón */
+    margin: 5px;
+}
+
+.block-element a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.block-element img {
+    width: 100%;
+    height: 100%;
+}
+
+.inline-element {
+    border: 2px solid #ff9500; /* Naranja */
+    padding: 5px;
+    margin: 5px;
+}
+
+.inline-element a {
+    color: #ff9500; /* Naranja para el color del enlace */
+    text-decoration: none;
+}
+
+.inline-element a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse sobre el enlace */
+}
+
+p {
+    margin-bottom: 10px;
+}
